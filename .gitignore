@@ -1,0 +1,6 @@
+/node_modules
+/.settings
+/.jshintrc
+/.tern-project
+/.project
+/npm-debug.log
