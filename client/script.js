@@ -2,13 +2,13 @@
 
 MainApp.config(function($routeProvider){
     $routeProvider.
-    when('/', { 
+    when('/', {
         // ログイン画面を表示
         controller : 'mainsCtrl',
         templateUrl: 'login.html',
     }).
     when('/view2',{
-        // 
+        //
         controller : 'mainsCtrl',
         templateUrl: 'view2.html',
     }).

@@ -1,9 +1,21 @@
-﻿<h1>ログイン</h1>
-<label>ユーザID:</label>
-<input type="text" ng-model="userid" placeholder="ユーザIDを入力してください">
-<br><br>
-<label>パスワード:</label>
-<input type="text" ng-model="passwd" placeholder="パスワードを入力してください">
+﻿
+<h1 align="center">ログイン</h1>
+<table align="center">
+  <tr>
+    <td align="center"><label>ユーザID</label></td>
+    <td><input type="text" ng-model="userid" placeholder="ユーザIDを入力してください"></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td align="center"><label >パスワード</label></td>
+    <td><input type="text" ng-model="passwd" placeholder="パスワードを入力してください"></td>
+  </tr>
+  <tr></tr>
+  <tr>
+      <td colspan="2" align="center"><button ng-click="clickLogin">ログイン</td>
+  </tr>
+</table>
+
 <hr>
 <span>こんにちは {{userid}}!</span>
 <br>
